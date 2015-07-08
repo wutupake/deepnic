@@ -1,8 +1,26 @@
+// main
+.main-wrap {
+  position: relative;
+  z-index: 10;
+}
+
+// content
+.content {
+  margin: 30% auto 0 auto;
+  text-align: center;
+}
+.icon-deepnic-logo {
+  color: #fff;
+  font-size: 2.6em;
+  margin: 0;
+}
+
 // video background
 #video-bg {
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   overflow: hidden;
+  z-index: 0;
   > video {
     position: absolute;
     top: 0;
@@ -19,8 +37,6 @@
     }
   }
 }
-
-
 /* 2. If supporting object-fit, overriding (1): */
 @supports (object-fit: cover) {
   #video-bg > video {
@@ -28,18 +44,4 @@
     width: 100%; height: 100%;
     object-fit: cover;
   }
-}
-
-// content
-.content {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  margin-left: -3.5em;
-  text-align: center;
-}
-.icon-deepnic-logo {
-  color: #fff;
-  font-size: 2.6em;
-  margin: 0;
 }
