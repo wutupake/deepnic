@@ -45,3 +45,12 @@
     object-fit: cover;
   }
 }
+
+// audio player
+audio {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
+}
