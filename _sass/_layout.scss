@@ -1,18 +1,27 @@
 // main
+html,
+body,
+.main-wrap {
+  height: 100%;
+  width: 100%;
+}
 .main-wrap {
   position: relative;
   z-index: 10;
+  display: table;
+  background-color: rgba(0,0,0,0.2);
 }
 
 // content
 .content {
-  margin: 30% auto 0 auto;
   text-align: center;
+  display: table-cell;
+  vertical-align: middle;
 }
 .icon-deepnic-logo {
   color: #fff;
   font-size: 2.6em;
-  margin: 0;
+  margin: 0 auto 200px auto;
 }
 
 // video background
