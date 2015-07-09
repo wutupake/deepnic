@@ -9,7 +9,7 @@ var Deepnic = (function($,global,document){
       ready: function () {
         $(this).jPlayer("setMedia", {
           mp3: "audio/beside-me.mp3"
-        }).jPlayer("play");;
+        }).jPlayer("play");
       },
       cssSelectorAncestor: "#jp_container_1",
       swfPath: "/js/vendor",
