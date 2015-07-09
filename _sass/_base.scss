@@ -151,7 +151,6 @@ blockquote {
  * Clearfix
  */
 %clearfix {
-
     &:after {
         content: "";
         display: table;
@@ -165,7 +164,6 @@ blockquote {
  * Icons
  */
 .icon {
-
     > svg {
         display: inline-block;
         width: 16px;
@@ -176,4 +174,18 @@ blockquote {
             fill: $grey-color;
         }
     }
+}
+
+/**
+ * Buttons
+ */
+button {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  border-color: #fff;
+  background-color: rgba(0,0,0,0.1);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
 }
