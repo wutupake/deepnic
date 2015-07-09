@@ -5,15 +5,19 @@ body,
   height: 100%;
   width: 100%;
 }
+
+body {
+  @include media-query($on-palm) {
+    background: transparent url('../video/bg-v8.gif') center center no-repeat;
+    background-size: cover;
+  }
+}
+
 .main-wrap {
   position: relative;
   z-index: 10;
   display: table;
   background-color: rgba(0,0,0,0.2);
-  @include media-query($on-palm) {
-    background: transparent url('../video/bg-v8.gif') center center no-repeat;
-    background-size: cover;
-  }
 }
 
 // content
