@@ -1,5 +1,6 @@
+'use strict';
+
 var Deepnic = (function($,global,document){
-  // VARIABLES
   var d = document,
       w = global.innerWidth,
       h = global.innerHeight;
