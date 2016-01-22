@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Musica deep house/house + picnic, concetto semplice che intende riportare ai fondamentali della musica dance: condividere un momento di libera espressione lasciandosi trasportare dalla musica, bisogno ancestrale e parte di ognuno.
   La ricerca di un’emozionalità non superficiale, in location sempre diverse, ma accomunate dalla possibilità di sentire il contatto con la natura e con le altre persone, in maniera spontanea.
   Portare il suono europeo più underground in Italia, dando a tutti la possibilità di fruirne in maniera anticonvenzionale, divertendosi e uscendo per una volta dalle solite logiche di immagine/profitto.
-baseurl: "/deepnic" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://deepnic.it" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
